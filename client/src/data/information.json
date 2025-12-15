@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "title": "Oversikt (Dashboard)",
+    "icon": "📊",
+    "description": "Startsiden gir deg et øyeblikksbilde av bedriftens sikkerhetsstatus.",
+    "steps": [
+      "Se status på ISO 27001 og Norman-kontroller.",
+      "Sirkeldiagrammene viser prosentvis fullførelse.",
+      "Klikk på 'Dropdown' oppe til høyre for å bytte mellom avdelinger eller visninger."
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Sjekklister & Kontroller",
+    "icon": "✅",
+    "description": "Her registrerer og dokumenterer du det daglige arbeidet.",
+    "steps": [
+      "Gå til 'Sjekkliste' i menyen til venstre.",
+      "Marker oppgaver som 'Godkjent', 'Delvis' eller 'Feilet'.",
+      "Oppdateringene reflekteres automatisk på Dashboardet."
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Risikoregister",
+    "icon": "⚠️",
+    "description": "Håndtering av potensielle trusler og sårbarheter.",
+    "steps": [
+      "Legg inn nye risikoer via 'Risikoregister'-siden.",
+      "Kategoriser risiko etter alvorlighetsgrad (Kritisk, Høy, Lav).",
+      "Tildel ansvarlig person for oppfølging."
+    ]
+  }
+]

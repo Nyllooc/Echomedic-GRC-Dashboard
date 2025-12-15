@@ -1,0 +1,31 @@
+[
+
+  {
+    "id": "1",
+    "code": "Art. 5(1)(f)",
+    "name": "Integrity and Confidentiality",
+    "description": "Personal data shall be processed in a manner that ensures appropriate security of the personal data, including protection against unauthorized or unlawful processing and against accidental loss, destruction or damage, using appropriate technical or organizational measures.",
+    "lastAudited": "2024-01-15",
+    "status": "Compliant",
+    "measures": "Teste"
+  },
+  {
+    "id": 2,
+    "code": "A.5.15",
+    "name": "Access Control",
+    "description": "Access to information and other associated assets shall be controlled in accordance with the specific business requirements of information security.",
+    "lastAudited": "20-02-2024",
+    "status": "Partial",
+    "measures": "Brenne"
+  },
+  {
+    "id": 3,
+    "code": "Art. 25",
+    "name": "Data Protection by Design and by Default",
+    "description": "Taking into account the state of the art, the cost of implementation and the nature, scope, context and purposes of processing as well as the risks of varying likelihood and severity for rights and freedoms of natural persons posed by the processing.",
+    "lastAudited": "2023-11-30",
+    "status": "Non-Compliant",
+    "measures": "løpe"
+  }
+
+]

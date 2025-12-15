@@ -1,0 +1,122 @@
+@media (max-width: 1024px) {
+    .sidebar {
+        width: 220px;
+        padding: 15px;
+    }
+
+    .main-content {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .issue-detection-grid, .security-posture-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .app-layout {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        border-right: none;
+        border-bottom: 1px solid var(--color-border);
+    }
+
+    .nav { display: none; }
+    .logo-container { margin-bottom: 10px; }
+
+    .compliance-grid {
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 480px) {
+
+    .main-content {
+        padding: 15px;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        border-bottom: 1px solid var(--color-border);
+        position: static;
+    }
+
+    .nav {
+        display: flex !important;
+        flex-direction: row;
+        overflow-x: auto;
+        white-space: nowrap;
+        padding-bottom: 5px;
+        gap: 10px;
+    }
+
+    .nav-item {
+        padding: 8px 12px;
+        background: #f3f4f6;
+        margin: 0;
+        font-size: 0.8rem;
+    }
+
+    .nav-section-title {
+        display: none;
+    }
+
+    .dashboard-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .dashboard-title {
+        font-size: 1.25rem;
+    }
+
+    .header-actions {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .compliance-grid,
+    .issue-detection-grid,
+    .security-posture-container {
+        grid-template-columns: 1fr !important;
+        gap: 15px;
+    }
+
+
+    .open-issues-card, .latest-issues-card {
+        padding: 15px;
+    }
+
+    .open-issues-table-container {
+        display: block;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 10px;
+    }
+
+    .open-issues-header-row,
+    .open-issues-data-row {
+        min-width: 500px;
+        grid-template-columns: 2fr repeat(5, 1fr);
+    }
+
+    .control-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .additional-requests {
+        margin-top: 5px;
+    }
+}

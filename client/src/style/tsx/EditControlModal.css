@@ -1,0 +1,209 @@
+.edit-modal-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
+}
+
+.edit-modal-container {
+    background-color: #f6f3f3;
+    width: 100%;
+    max-width: 42rem;
+    border-radius: 1rem;
+    border: 1px solid #334155;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    max-height: 90vh;
+}
+
+.edit-modal-header {
+    padding: 1.5rem;
+    border-bottom: 1px solid #334155;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.edit-modal-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.25rem;
+}
+
+.edit-modal-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #070404;
+    margin: 0;
+}
+
+.edit-modal-close-btn {
+    color: #5c6572;
+    padding: 0.25rem;
+    border-radius: 0.5rem;
+    transition: all 0.2s;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.edit-modal-close-btn:hover {
+    color: white;
+    background-color: #1e293b;
+}
+
+.edit-modal-body {
+    padding: 1.5rem;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+}
+
+.form-input,
+.form-textarea,
+.form-select {
+    width: 100%;
+    background-color: #020617;
+    border: 1px solid #334155;
+    border-radius: 0.5rem;
+    padding: 0.625rem 1rem;
+    color: white;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.form-input:focus,
+.form-textarea:focus,
+.form-select:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 1px #6366f1;
+}
+
+.form-textarea {
+    resize: none;
+    line-height: 1.625;
+}
+
+.select-wrapper {
+    position: relative;
+}
+
+.form-select {
+    appearance: none;
+    cursor: pointer;
+}
+
+.select-arrow {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #94a3b8;
+    width: 1rem;
+    height: 1rem;
+}
+
+.date-input-wrapper {
+    position: relative;
+}
+
+.date-icon {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #94a3b8;
+    display: flex;
+}
+
+.form-input.date-input {
+    padding-left: 2.5rem;
+    padding-right: 1rem;
+    color-scheme: dark;
+}
+
+.edit-modal-footer {
+    padding: 1.5rem;
+    border-top: 1px solid #334155;
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.75rem;
+    background-color: rgba(211, 209, 209, 0.98);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.btn-cancel {
+    padding: 0.625rem 1.25rem;
+    border-radius: 0.5rem;
+    color: #cbd5e1;
+    font-weight: 500;
+    font-size: 0.875rem;
+    background: transparent;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.btn-cancel:hover {
+    color: white;
+    background-color: #1e293b;
+}
+
+.btn-save {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.625rem 1.5rem;
+    border-radius: 0.5rem;
+    background-color: #4f46e5;
+    color: white;
+    font-size: 0.875rem;
+    font-weight: 600;
+    box-shadow: 0 10px 15px -3px rgba(79, 70, 229, 0.2);
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.btn-save:hover {
+    background-color: #4338ca;
+}
+
+.btn-save:active {
+    transform: scale(0.95);
+}

@@ -1,0 +1,839 @@
+[
+  {
+    "id": "1764753047405",
+    "code": "5.1",
+    "name": "Policies for information security",
+    "description": "Policyer skal defineres, godkjennes av ledelsen og publiseres.",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Lag og godkjenn en overordnet sikkerhetspolicy. \n\nPubliser policyen for alle ansatte. "
+  },
+  {
+    "id": "1764753088367",
+    "code": "5.2",
+    "name": "Information security roles and   responsibilities ",
+    "description": "Sikkerhetsroller og ansvar skal defineres og tildeles etter behov.",
+    "status": "Partial",
+    "lastAudited": "2025-12-03",
+    "measures": "Utpek sikkerhetsansvarlig (CISO) og personvernombud. \n\nDefiner hvem som har ansvar for de ulike systemene. "
+  },
+  {
+    "id": "1764753129510",
+    "code": "5.3",
+    "name": "Segregation of duties",
+    "description": "Motstridende plikter og ansvarsområder skal holdes adskilt. ",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Sørg for at den som utvikler koden ikke er den eneste som kan godkjenne den."
+  },
+  {
+    "id": "1764753187757",
+    "code": "5.4",
+    "name": "Management responsibilities ",
+    "description": "Ledelsen skal kreve at personell følger gjeldende sikkerhetspolicyer og prosedyrer. ",
+    "status": "Partial",
+    "lastAudited": "2025-12-03",
+    "measures": "Etabler obligatorisk, dokumentert sikkerhetsopplæring for alle ansatte. "
+  },
+  {
+    "id": "1764753227039",
+    "code": "5.5",
+    "name": "Contact with authorities",
+    "description": "Kontakt med myndigheter skal etableres. ",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Etabler og dokumenter en fast kontaktliste for relevante myndigheter. \n\nIntegrer kontaktliste i beredskapsplanen. \n\nDefiner hvem som skal kontakte myndighetene ved krise. "
+  },
+  {
+    "id": "1764753259584",
+    "code": "5.6",
+    "name": "Contact with special interest   groups ",
+    "description": "Kontakt med interessegrupper/sikkerhetsforum skal etableres. ",
+    "status": "Partial",
+    "lastAudited": "2025-12-03",
+    "measures": "Meld organisasjonen inn i relevante sikkerhetsforum og etabler en rutine for aktiv deltagelse og informasjon deling. "
+  },
+  {
+    "id": "1764753287190",
+    "code": "5.7",
+    "name": "Threat intelligence ",
+    "description": "Informasjon om trusler skal samles inn og analyseres. ",
+    "status": "Non-Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Etabler en formell trusselrapport-rutine basert på faste, pålitelige kilder, med månedlig analyse og videreformidling til sikkerhetsledelsen. "
+  },
+  {
+    "id": "1764753331898",
+    "code": "5.8",
+    "name": "Information security in project   management ",
+    "description": "Sikkerhet skal integreres i prosjektledelse. ",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Risikovurdering skal være fast punkt i alle nye utviklingsprosjekter."
+  },
+  {
+    "id": "1764753362766",
+    "code": "5.9",
+    "name": " Inventory of information and   other associated assets ",
+    "description": "Et inventar over informasjon og eiendeler skal vedlikeholdes. ",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Etabler et sentralt register over alle informasjonseiendeler og systemer"
+  },
+  {
+    "id": "1764753384881",
+    "code": "5.10",
+    "name": "Acceptable use of information   and other associated assets",
+    "description": "Regler for akseptabel bruk av eiendeler skal dokumenteres. ",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Utarbeide og dokumentere klare regler for akseptabel bruk av virksomhetens systemer og utstyr. "
+  },
+  {
+    "id": "1764753433735",
+    "code": "5.11",
+    "name": "Return of assets",
+    "description": "Ansatte skal returnere eiendeler ved endt arbeidsforhold. ",
+    "status": "Non-Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Lag en sjekkliste for tilbakelevering av utstyr når ansatte slutter"
+  },
+  {
+    "id": "1764753458605",
+    "code": "5.12",
+    "name": "Classification of information",
+    "description": "Klassifisering av informasjon (f.eks. intern/konfidensiell) ut fra hvor kritisk den er. ",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Definere klassifiseringsnivåer og kriterier. \n\nLage retningslinje for hvordan data klassifiseres. "
+  },
+  {
+    "id": "1764753481141",
+    "code": "5.13",
+    "name": "Labelling of information",
+    "description": "Klassifisert informasjon merkes tydelig så alle ser hvordan den skal håndteres. ",
+    "status": "Partial",
+    "lastAudited": "2025-12-03",
+    "measures": "Innføre faste merkinger i IT-systemer. \n\nSikre at eksport av data automatisk merkes med klassifisering der det er mulig. "
+  },
+  {
+    "id": "1764753503433",
+    "code": "5.14",
+    "name": "Information transfer",
+    "description": "All overføring av informasjon skal skje i henhold til definerte regler og prosedyrer konfidensialitet, integritet og sporbarhet. ",
+    "status": "Non-Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Etablere policy og prosedyrer for informasjonsutveksling, inkludert krav til kryptering, autentisering og loggføring. \n\nDefinere hvilke kommunikasjonskanaler som er godkjent for ulike klassifiseringsnivåer. "
+  },
+  {
+    "id": "1764753526640",
+    "code": "5.15",
+    "name": "Access control ",
+    "description": "Regler for styring av fysisk og logisk tilgang til informasjon og tilhørende eiendeler skal etableres og gjennomføres basert på forretningsbehov og krav til informasjonssikkerhet. ",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Utarbeide access control policy som definerer prinsipper som minste privilegium og need to know. \n\nSkille tydelig mellom brukere, privilegerte brukere og systemkontoer. \n\nRollebasert tilgangstyring. "
+  },
+  {
+    "id": "1764753548421",
+    "code": "5.16",
+    "name": "Identity management ",
+    "description": "Virksomheten skal styre identiteter (brukere, systemkontoer, tjenestekontoer) ",
+    "status": "Partial",
+    "lastAudited": "2025-12-03",
+    "measures": "Etablere onboarding, rolleendrings, og offboarding prosedyrer for alle brukere. \n\nBruke et identitet og tilgangsstyringsystem. \n\nSørge for at endringer i arbeidsforhold eller rolle reflekteres i tilganger.\n\nGjennomføre jevnlige revisjoner av identitetsregistret for å avdekke gamle eller ubrukte kontoer. "
+  },
+  {
+    "id": "1764753617104",
+    "code": "5.17",
+    "name": "Authentication information ",
+    "description": "Tildeling, lagring og bruk av autentiseringsinformasjon (passord, sertifikater, nøkler) skal styres av en definert prosess, og ansatte skal veiledes i sikker håndtering. ",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Fastsette krav til passord og flerfaktorautentisering for kontoer og systemer. \n\nBruke løsninger for hemmelighetshåndtering for nøkler og tokens, ikke lagring i klartekst. \n\nGjennomføre opplæring og retningslinjer for ansatte om akseptabel bruk og håndtering av autentiseringsinformasjon. "
+  },
+  {
+    "id": "1764753645483",
+    "code": "5.18",
+    "name": "Access rights ",
+    "description": "Tilgangsrettigheter til informasjon og eiendeler skal tildeles, gjennomgås, endres og fjernes i samsvar med virksomhetens policy og regler for tilgangsstyring. ",
+    "status": "Partial",
+    "lastAudited": "2025-12-03",
+    "measures": "Innføre godkjenningsprosess for nye tilganger. \n\nGjennomføre periodiske tilgangsrevisjoner der systemeiere og ledere verifiserer rettigheter er korrekte. \n\nSikre at tilganger fjernes eller endres når ansatte slutter eller bytter rolle. \n\nLoggføre alle kritiske endringer i tilgangsrettigheter. "
+  },
+  {
+    "id": "1764753663933",
+    "code": "5.19",
+    "name": "Information security in supplier   relationships ",
+    "description": "Det skal defineres og gjennomføres prosesser og prosedyrer for å håndtere informasjonssikkerhetsrisiko knyttet til bruk av tjenester og produkter. ",
+    "status": "Partial",
+    "lastAudited": "2025-12-03",
+    "measures": "Utarbeide en leverandørpolicy som beskriver krav til informasjonssikkerhet og personvern. \n\nGjennomføre risikovurdering av leverandører før inngåelse av avtale. "
+  },
+  {
+    "id": "1764753677466",
+    "code": "5.20",
+    "name": "Addressing information security  within supplier agreements ",
+    "description": "Krav til informasjonssikkerhet skal fastsettes basert på forhold, tjenester og data med hver enkelt leverandør. ",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Sikre at alle relevante avtaler inneholder sikkerhets og personvernbestemmelser. \n\nInkludere krav om kryptering, logging og bruk av underleverandører.  "
+  },
+  {
+    "id": "1764753723700",
+    "code": "5.21",
+    "name": "Managing information security   in the information and communication   technology (ICT) supply   chain ",
+    "description": "Prosesser som etableres for å håndtere informasjonssikkerhetsrisiko for IKT-produkter, tjenester og underleverandører. ",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Kartlegge kritiske komponenter og avhengigheter i IKT arkitekturen (Plattform/biblioteker). \n\nFølge med på sårbarheter og hendelser i leverandørens produkter og tjenester. "
+  },
+  {
+    "id": "1764753764822",
+    "code": "5.22",
+    "name": "Monitoring, review and change   management of supplier services ",
+    "description": "Virksomheten skal regelmessig overvåke, gjennomgå, evaluere og håndtere endringer i leverandør praksis for informasjonssikkerhet og kvalitet på tjenesteleveransen. ",
+    "status": "Partial",
+    "lastAudited": "2025-12-03",
+    "measures": "Innføre faste review møter. \n\nDokumentere og håndtere avvik, brudd på avtalevilkår og sikkerhetshendelser hos leverandører. "
+  },
+  {
+    "id": "1764753782092",
+    "code": "5.23",
+    "name": "Information security for use of   cloud services ",
+    "description": "Prosesser for anskaffelse, bruk forvaltning og avvikling av skytjenester som skal etableres i tråd med virksomhetens krav til informasjonssikkerhet. ",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Utarbeide en cloud policy som definerer hvilke typer data som kan lagres i skytjenester. \n\nEtablere rutiner for onboarding og offboarding av skytjenester. \n\nGjennomføre en risikovurdering før nye skytjenester tas i bruk. "
+  },
+  {
+    "id": "1764753800628",
+    "code": "5.24",
+    "name": "Information security incident   management planning and preparation ",
+    "description": "Virksomheten skal planlegge og forbedre håndtering av informasjonssikkerhetshendelser ved å definere, etablere prosesser, roller og ansvar. ",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Definere roller og ansvar for virksomheten. \n\nUtarbeide incident response prosess med tydelige steg. \n\nEtablere varsling og eskaleringsrutiner, samt kontaktpunkter og responstid. "
+  },
+  {
+    "id": "1764753827923",
+    "code": "5.25",
+    "name": "Assessment and decision on information   security events ",
+    "description": "Systematisk vurdering av sikkerhetshendelser og avgjøre om de skal kategoriseres som informasjonssikkerhetshendelser. ",
+    "status": "Partial",
+    "lastAudited": "2025-12-03",
+    "measures": "Etablere kriterier for hva som er en hendelse og incident. \n\nUtarbeide en klassifiseringsmodell for hendelser. \n\nInnføre rutine for håndtering av hendelser. "
+  },
+  {
+    "id": "1764753851130",
+    "code": "5.26",
+    "name": "Response to information security   incidents ",
+    "description": "Informasjonssikkerhetshendelser skal håndteres i tråd med dokumenterte prosedyrer. ",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Utarbeide prosedyrer for respons ved ulike typer hendelser. \n\nSørge for at alle hendelser klassifiseres som incidents får tildelt en ansvarlig person/gruppe. "
+  },
+  {
+    "id": "1764753873406",
+    "code": "5.27",
+    "name": "Learning from information security   incidents ",
+    "description": "Erfaringer fra informasjonssikkerhetshendelser skal brukes til å forbedre, kontroller, rutiner og tekniske løsninger, slik at lignede hendelser reduseres. ",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Innføre post incident review for hendelser. \n\nOppdatere risikoregistret der hendelser avdekker nye undervurderte risikoer. "
+  },
+  {
+    "id": "1764753891881",
+    "code": "5.28",
+    "name": "Collection of evidence ",
+    "description": "Virksomheten skal etablere prosedyrer for å identifisere, samle inn og bevare digitale og fysiske bevis knyttet til informasjonssikkerhetshendelser. ",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Utarbeide prosedyrer for innsamling av bevis og hvem som har lov til å gjøre hva. \n\nSikre at logger og konfigurasjoner ikke overskrives eller manipuleres etter en alvorlig hendelse. \n\nGi nødvendig opplæring til teknisk personell. "
+  },
+  {
+    "id": "1764753918440",
+    "code": "5.29",
+    "name": "Information security during   disruption ",
+    "description": "Informasjonssikkerheten skal opprettholdes på et passende nivå under driftsavbrudd. ",
+    "status": "Partial",
+    "lastAudited": "2025-12-03",
+    "measures": "Integrere sikkerhetstiltak i beredskaps- og gjenopprettingsplaner. \n\nGjennomfør øvelser som tester sikkerhetskontroller under driftsavbrudd. \n\nSørg for at alternative løsninger følger samme sikkerhetskrav som ordinær drift. "
+  },
+  {
+    "id": "1764753936519",
+    "code": "5.30",
+    "name": "ICT readiness for business continuity ",
+    "description": "IKT-beredskap skal planlegges, implementeres og testes. ",
+    "status": "Non-Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Lag en IKT-beredskapsplan \n\nGjennomfør øvelser jevnlig og dokumenter resultat "
+  },
+  {
+    "id": "1764753961965",
+    "code": "5.31",
+    "name": "Legal, statutory, regulatory and   contractual requirements ",
+    "description": "Relevante lov- og kontrakts krav skal identifiseres. ",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Etabler et register over gjeldende lov- og kontraktskrav. "
+  },
+  {
+    "id": "1764753989329",
+    "code": "5.32",
+    "name": "Intelectual property rights ",
+    "description": "Immaterielle rettigheter skal beskyttes gjennom egnede prosedyrer. ",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Etabler rutiner for håndtering av immaterielle rettigheter. \n\nGjennomfør lisens-revisjon. "
+  },
+  {
+    "id": "1764754032679",
+    "code": "5.33",
+    "name": "Protection of records ",
+    "description": "Arkiver skal beskyttes mot tap og forfalskning. ",
+    "status": "Non-Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Etabler rutiner for sikker lagring og håndtering av arkiver. "
+  },
+  {
+    "id": "1764754071940",
+    "code": "5.34",
+    "name": "Privacy and protection of personal identifiable information ",
+    "description": "Krav til personvern og beskyttelse av personlig identifiserbar informasjon (PII) skal møtes.  ",
+    "status": "Partial",
+    "lastAudited": "2025-12-03",
+    "measures": "Etabler rutiner for behandling, lagring og sletting av PII. "
+  },
+  {
+    "id": "1764754096715",
+    "code": "5.35",
+    "name": "Independent review of information security.",
+    "description": "Sikkerhetsarbeidet skal gjennomgås uavhengig med jevne mellomrom. ",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Gjennomfør uavhengige sikkerhetsrevisjoner med jevne mellomrom. "
+  },
+  {
+    "id": "1764754116288",
+    "code": "5.36",
+    "name": "Compliance with policies, rules and standards for informational security",
+    "description": "Etterlevelse av policyer og regler skal gjennomgås jevnlig. ",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Gjennomfør regelmessige interne kontroller. "
+  },
+  {
+    "id": "1764754139240",
+    "code": "5.37",
+    "name": "Documented operating procedures",
+    "description": "Driftsprosedyrer skal dokumenteres og være tilgjengelige. ",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Dokumenter alle relevante driftsprosedyrer i et sentralt system. "
+  },
+  {
+    "id": "1764754403435",
+    "code": "6.1",
+    "name": "Screening",
+    "description": "Alle kandidater må gjennomgå en bakgrunnssjekk før de ansettes. ",
+    "status": "Non-Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": " sjekk referanser fra tidligere arbeidsgivere for alle nye ansatte \n\n- krev vandelsattest for stillinger som har tilgang til sensitiv informasjon. \n\n- dokumenter alltid hvilke bakgrunnsjekker som ble utført og resultatet av dem. "
+  },
+  {
+    "id": "1764754427159",
+    "code": "6.2",
+    "name": "Terms and conditions of employment",
+    "description": "Ansettelsesavtaler skal beskrive den ansattes og bedriftens ansvar for informasjonssikkerhet. ",
+    "status": "Partial",
+    "lastAudited": "2025-12-03",
+    "measures": "arbeidskontrakter skal tydelig spesifisere den ansattes ansvar for konfidensialitet. \n\ninkluder en klausul som beskriver at misbruk av IT-systemer er et brudd på ansettelsesforholdet. \n\nde ansatte må skriftlig bekrefte at de har lest og forstått sikkerhetspolicyene. "
+  },
+  {
+    "id": "1764754469382",
+    "code": "6.3",
+    "name": "Information security awareness, education and training",
+    "description": "Alle ansatte skal jevnlig få opplæring og informasjon om sikkerhetspolicier og rutiner. ",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "gjennomfør obligatorisk sikkerhetsopplæring for alle ansatte minst én gang i året. \n\nhold simulerte phishing-tester jevnlig for å teste de ansattes holdning til sikkerhet \n\nsørg for at nyansatte får en sikkerhetsorientering innen den første uken. "
+  },
+  {
+    "id": "1764754572345",
+    "code": "6.4",
+    "name": "Disciplinary process",
+    "description": "Det skal formaliseres en prosedyre for disiplinære tiltak ved brudd på sikkerhetsregler. ",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "etabler en klar prosedyre som beskriver sanksjoner for ulike typer sikkerhetsbrudd (feks. fra advarsel til oppsigelse). \n\nprosedyren må sikre at ansatte får mulighet til å uttale seg før disiplinære tiltak iverksettes. \n\nalle sikkerhetshendelser og tilhørende tiltak skal dokumenteres formelt. "
+  },
+  {
+    "id": "1764754611663",
+    "code": "6.5",
+    "name": "Responsibilities after termination of change of employment",
+    "description": "Det skal være rutiner definert for å sikre at all tilgang til eiendeler blir returnert til bedriften når ansettelse opphører. ",
+    "status": "Partial",
+    "lastAudited": "2025-12-03",
+    "measures": "Deaktiver all digital tilgang (e-post, IT-systemer, VPN) umiddelbart etter siste arbeidsdag. \n\nbruk en «offboarding»-sjekkliste for å sikre at all bedriftens eiendom (PC, mobil, tilgangskort) samles inn "
+  },
+  {
+    "id": "1764754666210",
+    "code": "6.6",
+    "name": "Confidentiality or non-disclosure",
+    "description": "Taushetserklæringer skal være identifisert, dokumentert og signert av relevant personell. ",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": " Alle ansatte som jobber med sensitiv informasjon skal signere en taushetserklæring (NDA). \n\nsørg for at taushetserklæringen spesiefiserer hvilken informasjon som er konfidensiell og hvor lenge plikten varer. \n\noppdater NDA-er når ansatte får nye roller med tilgang til høyere grad av sensitiv informasjon. "
+  },
+  {
+    "id": "1764754692127",
+    "code": "6.7",
+    "name": "Remote working",
+    "description": "Det skal være implementert sikkerhetstiltak for å beskytte informasjon som behandles utenfor bedriftens lokaler. ",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Krev at alle ansatte alltid bruker VPN (kryptert tilkobling) når de får tilgang til interne systemer hjemmefra. \n\nfastett regler for fysisk sikkerhet av utstyr på hjemmekontoret (f.eks. lås PC-en når den ikke er i bruk). \n\nsikre at privatutstyr ikke brukes til å behandle bedriftens informasjon. "
+  },
+  {
+    "id": "1764754736191",
+    "code": "6.8",
+    "name": "Information security event reporting ",
+    "description": "Det skal være en klar rutine for ansatte for å rapportere mistenkte eller observerte sikkerhetshendelser. ",
+    "status": "Non-Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "etabler en enkel og kjent kanal (f.eks. en e-postadresse eller et telefonnummet) for å rapportere hendelser. \n\ntreng de ansatte i å rapportere raskt ved mistanke, selv om de ikke har fullstendige bevis.\n\nsørg for å ha en kultur der de ansatte oppfordres til å rapportere uten frykt for straff. "
+  },
+  {
+    "id": "1764754821877",
+    "code": "7.1",
+    "name": "Physical security parameters ",
+    "description": "Det skal etableres tydelige fysiske sikkerhetsgrenser rundt områder hvor informasjon og tilhørende eiendeler lagres eller behandles. ",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Sikre kontorlokaler med låste soner. \n\nAdgang kun for autoriserte personell. \n\nBruke adgangskort eller nøkkelsystem. "
+  },
+  {
+    "id": "1764754856636",
+    "code": "7.2",
+    "name": "Physical entry ",
+    "description": "Sikrede områder skal ha kontrollerte inngangspunkter som forhindrer uautorisert tilgang. ",
+    "status": "Partial",
+    "lastAudited": "2025-12-03",
+    "measures": "Adgangskontrollsystemer (kort, brikke, biometrisk). \n\nBesøkende må registreres og følges av ansatte.  \n\nKameraovervåkning ved inngang. "
+  },
+  {
+    "id": "1764754872012",
+    "code": "7.3",
+    "name": "Securing offices, rooms and facilities ",
+    "description": "Kontorer og rom der informasjon behandles skal ha hensiktsmessig fysisk sikring. ",
+    "status": "Non-Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Låssystemer på rom hvor sensitive data behandles. \n\nSikker oppbevaring av dokumenter (låsbare skap). \n\nSikkerhetsfilm på vinduer om nødvendig. "
+  },
+  {
+    "id": "1764754887541",
+    "code": "7.4",
+    "name": "Physical security monitoring ",
+    "description": "Områder skal overvåkes kontinuerlig for å avdekke uautorisert fysisk tilgang. ",
+    "status": "Partial",
+    "lastAudited": "2025-12-03",
+    "measures": "Kameraovervåkning i kritiske områder.  \n\nLogger for adgangssystemer.  \n\nRutiner for gjennomgang av overvåkningsdata. "
+  },
+  {
+    "id": "1764754904713",
+    "code": "7.5",
+    "name": "Protecting against physical and environmental threats ",
+    "description": "Beskytte lokaler og infrastruktur mot fysiske miljømessige trusler (brann, vannskader, naturhendelser). ",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Brannvarslingsystem og slukkeutstyr. \n\nSensorer for vannlekkasje. \n\nBackup strømforskyning. (UPS). \n\nRisikoanalyse for miljøtrusler"
+  },
+  {
+    "id": "1764754936775",
+    "code": "7.6 ",
+    "name": "Working in secure ereas ",
+    "description": "Sikre arbeidsrutiner i områder med høyt sikkerhetsnivå. ",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Kun autorisert personale får jobbe i sikre soner. \n\nForbud mot uregistrerte enheter (USB, privat PC). \n\nRutiner for eskortering av gjester. "
+  },
+  {
+    "id": "1764754976818",
+    "code": "7.7",
+    "name": "Clear desk and clear screen ",
+    "description": "Organisasjonen skal håndheve regler for ryddige arbeidsflater og låste skjermer.  ",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Automatisk skjermlås etter kort tid.  \n\nForbud mot å la sensitive dokumenter ligge fremme. \n\nLåsbare skrivebordsskuffer. "
+  },
+  {
+    "id": "1764754997983",
+    "code": "7.8",
+    "name": "Equipment siting and protection ",
+    "description": "Utstyr skal plasseres og sikres slik at risiko for skade, tyveri eller manipulering reduseres. ",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Skjermplasseringer slik at uvedkommende ikke kan se.  \n\nSikker montering av server- eller nettverksutstyr. \n\nTempraturkontrollerte rom ved behov. "
+  },
+  {
+    "id": "1764755021908",
+    "code": "7.9",
+    "name": "Security of assets and protection ",
+    "description": "Eiendeler brukt utenfor arbeidsplassen skal sikres på en trygg måte. ",
+    "status": "Non-Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Kryptering av bærbare enheter. \n\nRutiner for trygg transport av utstyr.  \n\nSikring av hjemmekontor (låst arbeidsplass). "
+  },
+  {
+    "id": "1764755046125",
+    "code": "7.10",
+    "name": "Storage media ",
+    "description": "Lagringsmedier skal håndteres trygt gjennom hele livssyklusen, fra anskaffelse til destruksjon. ",
+    "status": "Partial",
+    "lastAudited": "2025-12-03",
+    "measures": "Kryptering lagring. \n\nSikre rutiner for sletting og destruksjon. \n\nLåsbare skap for fysisk lagring av medier. "
+  },
+  {
+    "id": "1764755061871",
+    "code": "7.11",
+    "name": "Supporting utilities ",
+    "description": "IT-systemer skal beskyttes mot svikt i kritiske støttefunksjoner som strøm, kjøling og nettverk.  ",
+    "status": "Partial",
+    "lastAudited": "2025-12-03",
+    "measures": "UPS og nødstrøm for viktige systemer. \n\nOvervåking av temperatur og ventilasjon. \n\nRedundante internettlinjer. "
+  },
+  {
+    "id": "1764755077098",
+    "code": "7.12",
+    "name": "Cabling security ",
+    "description": "Kabler for strøm og data skal beskyttes mot skade, avlytting og interferens. ",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Skjult eller beskyttet kabelføring.  \n\nLåste tekniske skap. \n\nSkille mellom strøm- og datakabler.  "
+  },
+  {
+    "id": "1764755103276",
+    "code": "7.13",
+    "name": "Equipment maintenance ",
+    "description": "Alt utstyr skal vedlikeholdes korrekt for å sikre tilgjengelighet, integritet og konfidensialitet.",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Regelmessig service på hardware.  \n\nOppdateringsrutiner dokumentert. \n\nKontroll av reservedeler. "
+  },
+  {
+    "id": "1764755114985",
+    "code": "7.14",
+    "name": "Secure disposal or re-use of equipment ",
+    "description": "Utstyr som inneholder lagrningsmedier skal slettes sikkert eller destrueres når det tas ut av bruk",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Sertifisert datasletting (for eksempel, 3-pass wipe). \n\nShredding eller destruksjon av harddisker.  \n\nDokumenterte rutiner for kassasjon "
+  },
+  {
+    "id": "1764755141779",
+    "code": "8.1",
+    "name": "User end point devices",
+    "description": "Informasjon som er lagret eller brukt på PC, nettbrett eller andre enheter skal beskyttes. ",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Bruk passord og automatisk skjermlås på alle enheter.  \n\nAktiver kryptering av harddisk. \n\nInstaller antivirus og oppdateringer automatisk. \n\nsørg for at ansatte ikke lagrer jobbdata på private enheter. \n\nAktiver fjernsletting ved tap eller tyveri av enheten. "
+  },
+  {
+    "id": "1764755155038",
+    "code": "8.2",
+    "name": "Privileged access rights ",
+    "description": "Administrator og andre høynivåtilganger skal kun gis til de som virkelig trenger det for å utføre sitt arbeid, og bruken skal kontrolleres. ",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Opprette egne adminkontoer som kun brukes ved behov. \n\nKrev multifaktor-autentisering (MFA) for administratorer.  \n\nLogg all bruk av admintilganger. \n\nRevider hvem som har slike tilganger minst hver tredje måned.  "
+  },
+  {
+    "id": "1764755178356",
+    "code": "8.3",
+    "name": "Information access restriction",
+    "description": "Ansatte skal ha tilgang til informasjon de trenger for jobben sin. ",
+    "status": "Partial",
+    "lastAudited": "2025-12-03",
+    "measures": "Definer roller og hvilke systemer/data hver rolle skal ha tilgang til. \n\nKrev ledergodkjenning for å gi nye tilganger. \n\nFjern tilganger når ansatte bytter rolle eller slutter. \n\nBegrens tilgang til sensitive mapper med rettighetsstyring. "
+  },
+  {
+    "id": "1764755193776",
+    "code": "8.4",
+    "name": "Access to source code",
+    "description": "Kun utvalgte personer skal kunne lese og endre kildekode og utviklingsverktøy. ",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Gi kun utviklere tilgang til kode og repositories \n\nBruk «Pull request» og kodegjennomgang før endringer godkjennes. \n\nBeskytt kode-repoer med MFA og rollebasert tilgang (RBAC). \n\nLogg alle endringer i repositorier (Git). \n"
+  },
+  {
+    "id": "1764755322915",
+    "code": "8.5",
+    "name": "Secure authentication",
+    "description": "Pålogging skal være sikker og tilpasset hvor sensitiv informasjonen er.  ",
+    "status": "Partial",
+    "lastAudited": "2025-12-03",
+    "measures": "Aktiver MFA på alle viktige systemer. \n\nBlokker svake passord (minimumslengde + kompleksitet). \n\nUnngå felleskontoer. Alle skal ha sin egen bruker. \n\nAutomatisk avslutning av inaktive sesjoner. "
+  },
+  {
+    "id": "1764755345295",
+    "code": "8.6",
+    "name": "Capacity management",
+    "description": "Systemer skal overvåkes slik at de har nok kapasitet og ikke stopper opp. ",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Lag varsler når kapasitet er i ferd med å bli brukt opp. \n\nPlanlegg oppskalering i god tid. \n\nTest kapasitet ved store endringer. "
+  },
+  {
+    "id": "1764755376540",
+    "code": "8.7",
+    "name": " Protection against malware",
+    "description": "Systemer skal beskyttes mot virus, ransomware og annen skadelig programvare. ",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Installer antivirus/endepunkt-beskyttelse på alle enheter. \n\nBlokker misstenkelige filer og lenker i e-post. \n\nSørg for automatiske oppdateringer. \n\nGi ansatte enkel opplæring i å gjenkjenne phishing.  "
+  },
+  {
+    "id": "1764755400242",
+    "code": "8.8",
+    "name": "Management of technological vulnerabilities",
+    "description": "Bedriften skal være bevisst over hvilke sårbarheter som finnes i systemene og rette dem.",
+    "status": "Partial",
+    "lastAudited": "2025-12-03",
+    "measures": "Sett opp sårbarhetsskanning hver måned. \n\nFølg med på leverandørers sikkerhetsvarsler.  \n\nInstaller sikkerhetsoppdateringer jevnlig. \n\nPrioriter kritiske sårbarheter raskt, og aller helst innen 72 timer.  "
+  },
+  {
+    "id": "1764755418065",
+    "code": "8.9",
+    "name": "Configuration management",
+    "description": "\n8.9 Configuration management \n\nSystemer, enheter og nettverk skal ha sikre og dokumenterte standardinnstillinger. ",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Bruk standardiserte «secure baseline»- oppsett for servere og PC-er.  \n\nDeaktiver unødvendige tjenester og åpne porter. \n\nDokumenter endringer i konfigurasjon. \n\nGjennomfør regelmessige konfigurasjonsrevisjoner"
+  },
+  {
+    "id": "1764755443769",
+    "code": "8.10",
+    "name": "Information deletion",
+    "description": "Informasjon som ikke lenger trengs skal fjernes på en sikker måte. ",
+    "status": "Partial",
+    "lastAudited": "2025-12-03",
+    "measures": "Automatisk sletting basert på lagringsregler. \n\nSikker sletting av harddisker og enheter før gjenbruk. \n\nTøm og slett data i skytjenester etter proosjektslutt. \n\nKrypter lagringsmedier før sletting for ekstra trygghet. "
+  },
+  {
+    "id": "1764755462080",
+    "code": "8.11",
+    "name": "Data masking ",
+    "description": "Sjule eller anonymisere data når full informasjon ikke er nødvendig.  ",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Masker personopplysninger i testmiljøer. \n\nSkjul sensitive data i rapporter som sendes bredt. \n\nBruk pseudonymisering dersom mulig. \n\nBegrens hvem som kan se «ekte» data. "
+  },
+  {
+    "id": "1764755477625",
+    "code": "8.12",
+    "name": "Data leakage prevention",
+    "description": "Hindre at sensitive data deles eller kommer på avveie.  ",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Bruk verktøy som oppdager og blokkerer sending av sensitive filer. \n\nBlokker USB-lagring med mindre det er nødvendig.  \n\nKrypter filer som deles eksternt. \n\nSett opp varsler når store datamengder lastes ned. "
+  },
+  {
+    "id": "1764755493060",
+    "code": "8.13",
+    "name": "Information backup",
+    "description": "Informasjon skal tas sikkerhetskopi av og kunne gjennomprettes. ",
+    "status": "Partial",
+    "lastAudited": "2025-12-03",
+    "measures": "Automatisk daglig backup av viktige systemer. \n\nTest at backup faktisk kan gjennopprettes \n\nBeskytt backup mot ransomware (Immutable backup). "
+  },
+  {
+    "id": "1764755512633",
+    "code": "8.14",
+    "name": "Redundancy of information processing facilities",
+    "description": "Systemer skal kunne fungere selv om en komponent feiler. ",
+    "status": "Non-Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Bruk redundante servere, strømforsyninger og nettverkslinjer. \n\nSett opp failover-løsninger i sky eller datasenter. \n\nTest failover gjevnlig. \n\nDokumenter kritiske komponenter og avhengigheter. "
+  },
+  {
+    "id": "1764755529012",
+    "code": "8.15",
+    "name": "Logging",
+    "description": "Systemer skal registrere viktige hendelser, slik at feil og angrep kan oppdages. ",
+    "status": "Non-Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "produsere og lagre logger som registrerer aktiviteter \n\nbeskytte loggene. \n\njevnlig analysere logger. \n\nDefiner hvilke hendelser som skal alarmeres på. "
+  },
+  {
+    "id": "1764755550150",
+    "code": "8.16",
+    "name": "Monitoring activities",
+    "description": "Systemer og nettverk skal overvåkes for unormal aktivitet. ",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "overvåke nettverk, systemer og applikasjoner for unormal atferd. \n\nimplementere tiltak for å evaluere potensielle sikkerhetshendelser. \n\nBruk sikkerhetsverktøy som IDS/IPS eller SIEM hvis mulig. "
+  },
+  {
+    "id": "1764755565017",
+    "code": "8.17",
+    "name": "Clock synchronization",
+    "description": "Systemklokker må være synkronisert for at logger og hendelser skal stemme. ",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "synkronisere alle klokkene til IT-systemene til godkjente tidskilder. \n\nBruk av godkjente NTP-tjener for alle systemer. \n\nSikre NTP-trafikk i nettverket. "
+  },
+  {
+    "id": "1764755584446",
+    "code": "8.18",
+    "name": "Use of privileged utility programs",
+    "description": "Programmer som kan omgå sikkerhet og kontrolleres strengt. ",
+    "status": "Non-Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "begrense verktøy som kan omgå systemkontroller. \n\nLogg all bruk av dem. \n\nOppbevar dem i sikre områder med MFA. \n\nGjennomgå tilgangene jevnlig. "
+  },
+  {
+    "id": "1764755606339",
+    "code": "8.19",
+    "name": "Installation of software on operational systems",
+    "description": "Kun godkjente programvare skal installeres på systemer. ",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Implementere prosedyrer og tiltak for å kunne sikkert administrere installasjon av programvare på driftssystemer. \n\nDeaktiver muligheten for ansatte å installere selv. \n\nGjennomgå og godkjenn nye programmer før bruk. \n\nOvervåk insallasjoner automatisk. "
+  },
+  {
+    "id": "1764755630450",
+    "code": "8.20",
+    "name": "Networks security",
+    "description": "Netterket skal være sikkert konfigurert og beskyttet. ",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Bruk brannmurer med kun nødvendige åpne porter. \n\nSegmenter nettverket (Servere, brukere, gjester). \n\nBruk VPM for eksterne brukere. \n\nOvervåk nettverkstrafikk for unormal aktivitet. "
+  },
+  {
+    "id": "1764755648241",
+    "code": "8.21",
+    "name": "Security of network services",
+    "description": "Tjenester som DNS. E-post og inernettforbindelse må være sikre. ",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "identifisere krav til sikkerhetsmekanismer og nettverkstjenester. \n\nDokumenter hvilke nettverkstjenester som brukes og hvilke krav de har. \n\nKrypter trafikk (TLS). \n\novervåk ytelse og tilgjengelighet. "
+  },
+  {
+    "id": "1764755675147",
+    "code": "8.22",
+    "name": "Segregation of networks",
+    "description": "Alle nettverk i bedriften skal være segregert fra hverandre for å isolere kritiske data og begrense skade. ",
+    "status": "Non-Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Del nettverket i soner (Bruker, server, admin, IoT). \n\nBegrens trafikk mellom sonene. \n\nBruk brannmurregler eller VLAN for separasjon. \n\ntest at segmenteringen fungerer. "
+  },
+  {
+    "id": "1764755715269",
+    "code": "8.23",
+    "name": "Web filtering",
+    "description": "Blokker tilgang til farlige eller uønskede nettsteder for å hindre skadevare. ",
+    "status": "Partial",
+    "lastAudited": "2025-12-03",
+    "measures": "Installer webfilter som blokkerer skadelige eller upassende sider. \n\nSett regler for nedlasting av filer. \n\nOvervåk mistenkelig nettbruk. \n\nOppdater filterlistene automatisk. "
+  },
+  {
+    "id": "1764755739543",
+    "code": "8.24",
+    "name": "Use of cryptography",
+    "description": "Definer regler for bruk av kryptering for å beskytte sensitiv informasjon. ",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "utvikle en policy som definerer hvilken informasjon som skal krypteres. \n\nutvikle en policy som definerer algoritmer og nøkkelstørrelser som skal brukes \n\nutvikle regler for nøkkelhåndtering (lagring, distribusjon og destruksjon). "
+  },
+  {
+    "id": "1764755755358",
+    "code": "8.25",
+    "name": "Secure developent life cycle ",
+    "description": "Bygg inn sikkerhet i alle faser når det utvikles ny programvare eller nye systemer. ",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "inkluder sikkerhetskrav og aktiviteter i hele systemutviklingssykklusen (SDLC), fra kravspesifikasjon til avvikling. \n\nLag sikkerhetskrav til alle utvivklingsprosjekter. \n\nUtfør kodegjennomgang. \n\nTest for sårbarheter før lansering. \n\nGi utviklere opplæring i sikker kode. "
+  },
+  {
+    "id": "1764755772674",
+    "code": "8.26",
+    "name": "Application security requirements ",
+    "description": "Spesifiser tydelige sikkerhetskrav for alle applikasjoner som lages eller kjøpes. ",
+    "status": "Non-Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "definer sikkerhetskrav for applikasjoner.\n\nBeskriv krav til tilgangskontroll, logging, kryptering osv. \n\nTa sikkerhet med i anskaffelser. \n\nDokumenter krav og godkjenn dem før utvikling starter. "
+  },
+  {
+    "id": "1764755800430",
+    "code": "8.27",
+    "name": "Secure system architecture and engineering principles",
+    "description": "Bruk solide og sikre design prinsipper når du lager nye systemarkitekturer. ",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "bare tildel brukere (personer, systemer eller prosesser) kun den minimale tilgangen de trenger for å utføre oppgavene sine. \n\nsørg for at tilganger er tidsbegrenset og spesifikke for ressursen som kreves. \n\ntilgangene skal gjennomfås jevnlig for å sikre at de fortsatt er nødvendige. \n\nFølg «Least privilege» og «need-to-know”. \n\nGjennomfør sikkerhetsgjennomgang av design. "
+  },
+  {
+    "id": "1764755827102",
+    "code": "8.28",
+    "name": "Secure coding",
+    "description": "Kode skal utvikles på en måte som forebygger vanlige sårbarheter og følger sikkerhetsprinsipper. ",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Følge OWASP sine secure coding-prinsipper. \n\nKjør automatiske static code scans (SAST). \n\nUnngå hardkodede passord og elementer med høy integritet.  \n\nKodegjennomgang (peer review) før produksjon. "
+  },
+  {
+    "id": "1764755854513",
+    "code": "8.29",
+    "name": "Security testing in development and acceptance",
+    "description": "Systemet skal gjennomgå sikkerhetstesting før lansering eller produksjonsetting. ",
+    "status": "Non-Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Utføre penetrasjonstester ved større utgivelser. \n\nTeste autorisasjon, autentisering og databehandling. \n\nGjennomføre risikoanalyse før lansering. \n\nDokumentere og rette sårbarheter.  "
+  },
+  {
+    "id": "1764755912657",
+    "code": "8.30",
+    "name": "Outsourced development",
+    "description": "Ekstern utvikling skal holde samme nivå av sikkerhet som intern utvikling. ",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Inkludere sikkerhetskrav i kontrakter. \n\nRegelmessig oppfølging av leverandørens arbeid. \n\nKrav om sikker koding og testing i leveranser. \n\nLogge og revidere leverandørens tilganger. "
+  },
+  {
+    "id": "1764755935404",
+    "code": "8.31",
+    "name": "Separation of development ",
+    "description": "Utviklingsmiljøer, testmiljøer og produksjonsmiljøer skal holdes adskilt for å redusere risiko. ",
+    "status": "Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "Ingen utviklere skal ha direkte tilgang til produksjon. \n\nMaskering av testdata. \n\nForskjellige brukere og passord for hvert miljø. \n\nSeparate nettverkssoner eller servere. "
+  },
+  {
+    "id": "1764755962499",
+    "code": "8.32",
+    "name": " Change management",
+    "description": "Endringer i systemet skal kontrolleres for å unngå feil og driftstans. ",
+    "status": "Non-Compliant",
+    "lastAudited": "2025-12-03",
+    "measures": "krev godkjenning for alle endringer. \n\nDokumenter hva som skal endres og hvorfor. \n\nTest endringer før produksjon. \n\nSett opp rollback-planer. "
+  },
+  {
+    "id": "1764755984682",
+    "code": "8.33",
+    "name": "Test information",
+    "description": "Data som brukes i test skal håndteres sikkert. ",
+    "status": "Partial",
+    "lastAudited": "2025-12-03",
+    "measures": "Masker all persondata i testmiljøer. \n\nSlett testdata etter bruk. \n\nBegrens tilgangen til testmiljøer. \n\nUnngå bruk av ekte kundedata i tester. "
+  },
+  {
+    "id": "1764756007412",
+    "code": "8.34",
+    "name": "Protection of information systems during audit testing",
+    "description": "Når systemer teste eller revideres skal det ikke påvirke driften eller sikkerheten. ",
+    "status": "Partial",
+    "lastAudited": "2025-12-03",
+    "measures": "Test i separate miljøer når mulig. \n\nAvtal på forhånd hva som skal testes. \n\nOvervåk systemet mens det testes. \n\nStopp testen hvis driften påvirkes. "
+  }
+]

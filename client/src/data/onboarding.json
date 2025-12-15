@@ -1,0 +1,71 @@
+[
+  {
+    "id": "E-001",
+    "name": "CAMFIVE",
+    "email": "camfive@echomedic.no",
+    "role": "Frontend Developer",
+    "department": "Engineering",
+    "startDate": "2023-10-01",
+    "progress": 33,
+    "status": "In Progress",
+    "avatarColor": "#FCD34D",
+    "initials": "AO",
+    "checklist": [
+      { "id": 1, "title": "Taushetserklæring (NDA) signert", "completed": true },
+      { "id": 2, "title": "Informasjonssikkerhetspolicy lest og akseptert", "completed": true },
+      { "id": 3, "title": "Personvern- og GDPR-opplæring gjennomført", "completed": true },
+      { "id": 4, "title": "Opplæring i å identifisere phishing og sosial manipulering", "completed": false },
+      { "id": 5, "title": "Opplæring i rapportering av avvik og sikkerhetshendelser", "completed": false },
+      { "id": 6, "title": "Brukerkonto opprettet og tilganger godkjent av leder", "completed": false },
+      { "id": 7, "title": "Tilganger gitt etter rolle og minste privilegium", "completed": false },
+      { "id": 8, "title": "Flerfaktorautentisering (MFA) aktivert", "completed": false },
+      { "id": 9, "title": "Virksomhetsutstyr klargjort og sikret (kryptering / låsing)", "completed": false }
+    ]
+  },
+  {
+    "id": "E-002",
+    "name": "Eivind",
+    "email": "eivind@echomedic.no",
+    "role": "Cyber",
+    "department": "Engineering",
+    "startDate": "2023-10-15",
+    "progress": 0,
+    "status": "Pending",
+    "avatarColor": "#3B82F6",
+    "initials": "EJ",
+    "checklist": [
+      { "id": 1, "title": "Taushetserklæring (NDA) signert", "completed": false },
+      { "id": 2, "title": "Informasjonssikkerhetspolicy lest og akseptert", "completed": false },
+      { "id": 3, "title": "Personvern- og GDPR-opplæring gjennomført", "completed": false },
+      { "id": 4, "title": "Opplæring i å identifisere phishing og sosial manipulering", "completed": false },
+      { "id": 5, "title": "Opplæring i rapportering av avvik og sikkerhetshendelser", "completed": false },
+      { "id": 6, "title": "Brukerkonto opprettet og tilganger godkjent av leder", "completed": false },
+      { "id": 7, "title": "Tilganger gitt etter rolle og minste privilegium", "completed": false },
+      { "id": 8, "title": "Flerfaktorautentisering (MFA) aktivert", "completed": false },
+      { "id": 9, "title": "Virksomhetsutstyr klargjort og sikret (kryptering / låsing)", "completed": false }
+    ]
+  },
+  {
+    "id": "E-003",
+    "name": "Fredrik",
+    "email": "fredrik@echomedic.no",
+    "role": "Backend Engineer",
+    "department": "Engineering",
+    "startDate": "2023-09-20",
+    "progress": 100,
+    "status": "Completed",
+    "avatarColor": "#D8B4FE",
+    "initials": "MS",
+    "checklist": [
+      { "id": 1, "title": "Taushetserklæring (NDA) signert", "completed": true },
+      { "id": 2, "title": "Informasjonssikkerhetspolicy lest og akseptert", "completed": true },
+      { "id": 3, "title": "Personvern- og GDPR-opplæring gjennomført", "completed": true },
+      { "id": 4, "title": "Opplæring i å identifisere phishing og sosial manipulering", "completed": true },
+      { "id": 5, "title": "Opplæring i rapportering av avvik og sikkerhetshendelser", "completed": true },
+      { "id": 6, "title": "Brukerkonto opprettet og tilganger godkjent av leder", "completed": true },
+      { "id": 7, "title": "Tilganger gitt etter rolle og minste privilegium", "completed": true },
+      { "id": 8, "title": "Flerfaktorautentisering (MFA) aktivert", "completed": true },
+      { "id": 9, "title": "Virksomhetsutstyr klargjort og sikret (kryptering / låsing)", "completed": true }
+    ]
+  }
+]

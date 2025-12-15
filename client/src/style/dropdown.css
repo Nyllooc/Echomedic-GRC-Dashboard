@@ -1,0 +1,110 @@
+.dropdown-wrapper {
+    position: relative;
+    display: inline-block;
+    z-index: 50;
+}
+
+.dropdown-nav {
+    position: relative;
+    width: auto;
+}
+
+.dropdown-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    height: 36px;
+    padding: 0 12px;
+    background: var(--color-card-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+    color: var(--color-text-dark);
+    font-weight: 600;
+    font-size: 1.2rem;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+
+.dropdown-button:hover {
+    background-color: #f3f4f6;
+    border-color: #d1d5db;
+}
+
+#toggle {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 2;
+    margin: 0;
+}
+
+.arrow-icon {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid var(--color-text-subtle);
+    transition: transform 0.3s;
+}
+
+#toggle:checked ~ .dropdown-button .arrow-icon {
+    transform: rotate(180deg);
+}
+
+#toggle:checked ~ .dropdown-button {
+    border-color: var(--color-echomedic);
+}
+
+
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    margin-top: 8px;
+    width: 160px;
+    background: var(--color-card-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    padding: 6px;
+
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+#toggle:checked ~ .dropdown-menu {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.dropdown-menu li {
+    display: block;
+    width: 100%;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 8px 12px;
+    color: var(--color-text-dark);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-radius: 4px;
+    transition: background 0.15s;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f3f4f6;
+    color: var(--color-echomedic);
+}
