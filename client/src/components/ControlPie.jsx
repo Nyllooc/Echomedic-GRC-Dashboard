@@ -13,7 +13,7 @@ const ControlPie = ({ total, completed, partial = 0, completion }) => {
     const activeData = data.filter(item => item.value > 0);
 
     return (
-        <div style={{ width: '50%', height: '100%', minHeight: '220px' }}>
+        <div style={{ width: '100%', height: '100%', minHeight: '220px' }}>
             <ResponsiveContainer width="100%" height="100%">
                 <PieChart>
                     <Pie
