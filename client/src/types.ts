@@ -1,5 +1,3 @@
-import {s} from "vite/dist/node/chunks/moduleRunnerTransport";
-
 export interface Control {
     id: string;
     type: string;

@@ -1,4 +1,3 @@
-/* --- Overlay & Panel Structure --- */
 .modal-overlay {
     position: fixed;
     top: 0;
@@ -308,7 +307,6 @@ input[type=range] {
     border: 1px solid #9333ea
 }
 
-/* Icon in button spacing */
 .btn-save svg, .btn-save span {
     margin-right: 8px;
 }
